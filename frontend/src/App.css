@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(86, 96, 109);
+    font-family: "Application";
+}
+
+@font-face {
+    font-family: "Application";
+    src: url('./assets/CheltenhamStdBook.otf');
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 31, 39);
+    border-bottom: 10px solid black;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 5px solid black;
+    
+}
+
+.topbar-head{
+    font-family: 'Application';
+    font-size: 50px;
+    color: black;
+    margin: 10px;   
+    cursor: pointer;
+    
+}
+
+.topbar-btn{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    
+    font-family: 'Application';
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.post-carousel{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid;
+    height: 100%;
+}
+
+.carousel-card{
+    outline: black; /* Removes the blue border */
+    text-decoration: none; 
+    border: 5px solid black;
+}
+
+.carousel-card:focus{
+    outline: black;
+}
+
+.auth-screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Application";  
+    background-color: black;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+}
+
+.bg-image-container {
+    flex: 1;
+    background-image: url('./assets/bguser.png');
+    background-size: cover;
+    background-position:center;
+    height: 100%;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100vh;
+}
+
+.card-head{
+    margin-left: 10px;
+}
+
+.user-profile{
+    font-family: "Application";
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.user-card{
+    padding: 50px;
+    width: 100%;
+}
+
+.top-headline{
+    color:black;
+    font-family: "Application";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight:bolder;
+    font-size: 3.5rem;
+    
+}
+
+.article-cols{
+    display: flex;
+    flex-direction: column;
+    font-family: "Application";
+    border-bottom: 25px solid transparent;
+    background-color: rgb(56, 69, 83);
+}
+
+.article-head{
+    background-color: white;
+    color:black;
+    font-family: "Application";
+    font-weight:bolder;
+    font-size: 3rem;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.article-cards{
+    margin: 100px;
+    background-color: rgb(255, 245, 238,0.1);
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 31, 39);
+    border-top: 25px solid transparent;
+    justify-content: center;
+    border-bottom: 15px solid transparent;
+
+}
+
+.bottombar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.user-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(86, 96, 109);
+}
